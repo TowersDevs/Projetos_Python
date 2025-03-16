@@ -1,31 +1,29 @@
+# Projeto organizador automático de arquivos baseado em extensão
+
 import os
 import shutil
 
-# Diretório de origem
-origem = r'C:/Users/felip/OneDrive/Área de Trabalho/MIX'
+# !!! Inserir caminho onde está os arquivos a serem organizados !!!
+origem = r'seu_diretorio' # Exemplo: 'C:/Users/towers/OneDrive/Área de Trabalho'
 
-# Categorias de arquivos
 categorias = {
     'imagens': ('.jpg', '.png', '.jpeg'),
     'documentos': ('.pdf', '.docx', '.txt'),
     'audios': ('.mp3', '.mp4', '.wav')
 }
 
-# Listar arquivos do diretório especificado
 arquivos = os.listdir(origem)
 print("\nArquivos encontrados:", arquivos)
 
-# Criar pastas se não existirem
 for pasta in ['imagens', 'documentos', 'audios']:
     os.makedirs(pasta, exist_ok=True)
     print(f'\nPasta {pasta} criada com sucesso!')
 
-# Copiar arquivos para a nova pasta
 for arquivo in arquivos:
-    caminho_origem = os.path.join(origem, arquivo)  # Caminho completo do arquivo original
+    caminho_origem = os.path.join(origem, arquivo) 
 
     for pasta, extensoes in categorias.items():
-        if arquivo.lower().endswith(extensoes):  # `.lower()` evita problemas com maiúsculas
+        if arquivo.lower().endswith(extensoes): 
             shutil.copy(caminho_origem, os.path.join(pasta, arquivo))
             print(f'\n✅ Arquivo "{arquivo}" copiado para {pasta}/')
 
