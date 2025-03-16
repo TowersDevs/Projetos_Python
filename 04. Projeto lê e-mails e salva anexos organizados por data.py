@@ -1,12 +1,12 @@
-# Projeto: Bot que lê e-mails automaticamente e salva anexos organizados por data
+# Projeto: Bot que lê e-mails automaticamente no Gmail e salva anexos organizados por data
 
 import imaplib
 import email
 import os
 from datetime import datetime
 
-EMAIL = "seu_e-mail"
-SENHA = "sua_senha"
+EMAIL = "seu_e-mail" # !!! Inserir seu endereço de e-mail
+SENHA = "sua_senha"  # !!! Gere uma senha de aplicativo no Google Account Security e insira nessa linha.
 IMAP_SERVER = "imap.gmail.com"
 
 mail = imaplib.IMAP4_SSL(IMAP_SERVER)

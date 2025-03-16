@@ -3,7 +3,7 @@
 import os
 import shutil
 
-# !!! Inserir caminho onde está os arquivos a serem organizados !!!
+# !!! Inserir caminho onde estão os arquivos a serem organizados !!!
 origem = r'seu_diretorio' # Exemplo: 'C:/Users/towers/OneDrive/Área de Trabalho'
 
 categorias = {
