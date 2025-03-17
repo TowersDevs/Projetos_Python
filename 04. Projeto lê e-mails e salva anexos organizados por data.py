@@ -35,7 +35,7 @@ for num in emails_ids:
 
     # Pegar a data do e-mail
     data_email = msg["Date"]
-    data_formatada = datetime.strptime(data_email[:16], "%a, %d %b %Y").strftime("%Y-%m-%d")
+    data_formatada = datetime.strptime(data_email[:16].strip(), "%a, %d %b %Y").strftime("%Y-%m-%d")
     
     pasta_data = os.path.join(pasta_anexos, data_formatada)
     if not os.path.exists(pasta_data):
