@@ -1,2 +1,2 @@
-# Projetos_Estudo_Python
- Projetos práticos no estudo de programação na linguagem python
+# Projetos_Python
+ Projetos práticos de automação com python
