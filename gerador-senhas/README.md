@@ -1,4 +1,3 @@
-```markdown
 # 🔐 Gerador de Senhas Aleatórias
 
 Gera múltiplas senhas seguras com opções de complexidade.
@@ -16,7 +15,3 @@ Gera múltiplas senhas seguras com opções de complexidade.
 
 ```bash
 python senhas.py
-yaml
-Copiar
-Editar
-
