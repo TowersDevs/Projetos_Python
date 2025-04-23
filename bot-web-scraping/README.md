@@ -2,6 +2,9 @@
 
 Acessa o site de uma loja, realiza login e coleta informações de produtos (nome, preço, imagem), salvando em Excel.
 
+## 🎬 Demonstração
+![Bot Web Scraping](./img/bot_login_demo.gif)
+
 ## 🔍 Funcionalidades
 - Login automatizado
 - Extração de dados de produtos
