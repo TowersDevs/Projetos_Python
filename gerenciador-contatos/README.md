@@ -2,6 +2,9 @@
 
 Aplicativo simples em Python que permite adicionar, listar, buscar e remover contatos por meio de um menu interativo.
 
+## 🎬 Demonstração
+![Gerenciador Contatos](./img/contatos_demo.gif)
+
 ## 🧠 Funcionalidades
 - Adicionar contato com nome e telefone
 - Buscar contato pelo nome
