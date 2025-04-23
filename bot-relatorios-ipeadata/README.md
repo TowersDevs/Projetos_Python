@@ -16,6 +16,6 @@ Comunica com a API do site IpeaData, gera gráfico com matplotlib e envia PDF po
 - Bibliotecas: `requests`, `matplotlib`, `pdfkit`, `smtplib`
 
 ## ▶️ Como executar
-
+- Edite os dados em "config" e execute:
 ```bash
-python ipeadata_bot.py
+python main.py
