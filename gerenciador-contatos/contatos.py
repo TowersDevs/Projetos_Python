@@ -1,16 +1,19 @@
 agenda = []
 
 while True:
-    print("📱 Gerenciador de Contatos 📱\n")
+    print("---------------------------------")
+    print("📱 Gerenciador de Contatos \n")
     print("1. Adicionar contato")
     print("2. Listar contatos")
     print("3. Buscar contato")
     print("4. Remover contato")
     print("5. Sair")
-    opcao = input("\nEscolha uma opção: ")
-
+    print("---------------------------------")
+    opcao = input("Escolha uma opção: ")
+    print("---------------------------------")
+    
     if opcao == "1":
-        nome = input("Digite o nome do contato: ")
+        nome = input("\nDigite o nome do contato: ")
         telefone = input("Digite o número de telefone: ")
 
         contato = {
@@ -26,7 +29,7 @@ while True:
         if not agenda:
             print("\n📌 Lista de contatos está vazia!\n")
         else:
-            print("Lista de contatos:")
+            print("\nLista de contatos:\n")
             for contato in agenda:
               print(f"{contato['nome']}: {contato['telefone']}\n")
 
