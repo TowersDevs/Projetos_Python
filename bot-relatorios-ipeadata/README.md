@@ -2,6 +2,9 @@
 
 Comunica com a API do site IpeaData, gera gráfico com matplotlib e envia PDF por e-mail.
 
+## 🎬 Demonstração
+![Bot IpeaData](./img/ipeadata_demo.gif)
+
 ## ⚙️ Recursos
 - Requisição de dados via API
 - Geração de gráfico com matplotlib
