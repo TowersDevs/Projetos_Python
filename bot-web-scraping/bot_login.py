@@ -1,6 +1,3 @@
-# Acessa o site da loja, faz login, extrai informações de produtos 
-#(nome, preço, link da imagem) e salva no excel;
-
 from playwright.sync_api import sync_playwright
 import pandas as pd
 
