@@ -1,5 +1,3 @@
-# Projeto: Bot que lê e-mails automaticamente no Gmail e salva anexos organizados por data
-
 import imaplib
 import email
 import os
