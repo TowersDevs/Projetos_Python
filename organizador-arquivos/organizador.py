@@ -1,5 +1,3 @@
-# Projeto organizador automático de arquivos baseado em extensão
-
 import os
 import shutil
 
