@@ -1,5 +1,3 @@
-# Projeto gerador de senhas aleatórias
-
 import random
 import string
 
