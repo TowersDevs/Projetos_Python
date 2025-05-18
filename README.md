@@ -12,8 +12,8 @@ Cada projeto foi criado para resolver um problema real, economizar tempo ou elim
 | [📇 Gerenciador de Contatos](./gerenciador-contatos) | CRUD simples em Python com menu interativo via terminal |
 | [🔐 Gerador de Senhas](./gerador-senhas) | Gera senhas seguras com diferentes níveis de complexidade |
 | [🗃️ Organizador de Arquivos](./organizador-arquivos) | Automatiza a organização de arquivos com base na extensão |
-| [📥 Leitor de E-mails com Anexos](./leitor-emails-anexos) | Acessa Gmail e salva anexos automaticamente, organizando por data |
-| [🛒 Bot Login + Extração de Dados](./bot-login-extracao) | Automatiza login e coleta de dados de produtos de um site com exportação em Excel |
+| [📥 Leitor de E-mails com Anexos](./email-downloader) | Acessa Gmail e salva anexos automaticamente, organizando por data |
+| [🛒 Bot Login + Extração de Dados](./bot-web-scraping) | Automatiza login e coleta de dados de produtos de um site com exportação em Excel |
 | [📊 Bot de Relatórios IpeaData](./bot-relatorios-ipeadata) | Coleta dados da API do IpeaData, gera gráfico e envia relatório em PDF por e-mail |
 
 ---
