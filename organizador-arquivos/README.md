@@ -1,21 +1,30 @@
-# 🗃️ Organizador de Arquivos por Extensão
+# 🗃️ Organizador Automático de Arquivos por Extensão
 
-Script que categoriza e copia arquivos em pastas separadas com base em suas extensões (.pdf, .jpg, .mp3, etc).
+Este script automatiza a organização de arquivos em um diretório, categorizando-os automaticamente em pastas com base em suas extensões (.pdf, .jpg, .xlsx, .mp3, etc).  
+É ideal para quem deseja manter seus arquivos organizados sem esforço manual, seja em ambientes pessoais ou profissionais.
 
-## 🔧 Funcionalidades
-- Criação automática de pastas por tipo de arquivo
-- Organização por extensão
-- Cópia dos arquivos para as pastas corretas
+## 💡 Problema que resolve
+Arquivos acumulados em uma única pasta tornam difícil encontrar o que se precisa e causam perda de tempo com organização manual.  
+Este script executa a tarefa de forma rápida, categorizando conforme o tipo de arquivo.
+
+## 🚀 Solução implementada
+- Leitura do diretório especificado e verificação de extensões
+- Criação automática de pastas por categoria (documentos, imagens, áudios, etc)
+- Cópia dos arquivos para as pastas corretas com base em suas extensões
+- Flexível para adicionar novas categorias facilmente
+
 
 ## 🛠️ Tecnologias
 - Python
 - Bibliotecas: `os`, `shutil`
 
-## 📝 Observações
-- Editar a variável `origem` com o caminho desejado
-- Pode trocar `shutil.copy` por `shutil.move` se quiser mover os arquivos
+## 📈 Resultados
+- Organização de dezenas de arquivos em segundos
+- Redução de tarefas repetitivas e erros de arquivamento manual
+- Adaptação simples para qualquer estrutura de pastas ou categorias
 
 ## ▶️ Como executar
-
+1. Altere a variável `origem` com o caminho do diretório desejado
+2. Execute:
 ```bash
 python organizador.py
