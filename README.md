@@ -1,23 +1,24 @@
-# 🚀 Projetos em Python
+# 🚀 Projetos em Python — Automação, Dados e Eficiência
 
-Este repositório reúne meus principais projetos desenvolvidos com Python, com foco em automação de tarefas, web scraping, integração de sistemas e bots.
+Este repositório reúne meus principais projetos desenvolvidos com Python, com foco em automação de tarefas, web scraping, integração de sistemas, bots e manipulação de dados.  
+Cada projeto foi criado para resolver um problema real, economizar tempo ou eliminar tarefas manuais repetitivas — com código limpo, funcional e aplicável no mercado.
 
-Todos os projetos aqui foram desenvolvidos de forma prática com o objetivo de resolver problemas reais, aumentar a produtividade e eliminar tarefas repetitivas.
+---
 
 ## 📂 Índice de Projetos
 
 | Projeto | Descrição |
 |--------|------------|
-| [📇 Gerenciador de Contatos](./gerenciador-contatos) | Menu interativo para adicionar, buscar e remover contatos |
-| [🔐 Gerador de Senhas](./gerador-senhas) | Gera senhas aleatórias com diferentes níveis de complexidade |
-| [🗃️ Organizador de Arquivos](./organizador-arquivos) | Classifica e copia arquivos com base em suas extensões |
-| [📥 Leitor de E-mails com Anexos](./leitor-emails-anexos) | Lê e-mails do Gmail e salva anexos organizados por data |
-| [🛒 Bot Login + Extração de Dados](./bot-login-extracao) | Faz login em site, extrai dados de produtos e salva em Excel |
-| [📊 Bot de Relatórios IpeaData](./bot-relatorios-ipeadata) | Coleta dados via API do IpeaData, gera gráfico e envia por e-mail |
+| [📇 Gerenciador de Contatos](./gerenciador-contatos) | CRUD simples em Python com menu interativo via terminal |
+| [🔐 Gerador de Senhas](./gerador-senhas) | Gera senhas seguras com diferentes níveis de complexidade |
+| [🗃️ Organizador de Arquivos](./organizador-arquivos) | Automatiza a organização de arquivos com base na extensão |
+| [📥 Leitor de E-mails com Anexos](./leitor-emails-anexos) | Acessa Gmail e salva anexos automaticamente, organizando por data |
+| [🛒 Bot Login + Extração de Dados](./bot-login-extracao) | Automatiza login e coleta de dados de produtos de um site com exportação em Excel |
+| [📊 Bot de Relatórios IpeaData](./bot-relatorios-ipeadata) | Coleta dados da API do IpeaData, gera gráfico e envia relatório em PDF por e-mail |
 
 ---
 
-## 🧠 Tecnologias Usadas
+## 🛠️ Tecnologias Utilizadas
 
 - Python 3.11
 - Pandas
@@ -26,14 +27,17 @@ Todos os projetos aqui foram desenvolvidos de forma prática com o objetivo de r
 - APIs REST (requests / FastAPI)
 - Automação de e-mails
 - PDFKit, Matplotlib, openpyxl
+- Manipulação de arquivos e diretórios (os, shutil)
+- Protocolos IMAP e SMTP
 
 ---
 
-## 💡 Objetivo
+## 🎯 Objetivo
 
-Mostrar minhas habilidades técnicas e práticas como Desenvolvedor Python por meio de projetos aplicados, resolvendo problemas reais com código simples, limpo e funcional.
+Demonstrar na prática como utilizo Python para automatizar processos, integrar sistemas, extrair e tratar dados, gerar relatórios e resolver problemas reais.  
+Cada projeto foi pensado para entregar valor direto — seja em eficiência, organização ou ganho de tempo — com aplicações claras no mundo profissional.
 
 ---
 
-🔗 [Veja meu perfil no GitHub](https://github.com/TowersDevs)  
+🔗 [Veja meu perfil completo no GitHub](https://github.com/TowersDevs)  
 📬 [Entre em contato](mailto:felipearaujo178@outlook.com)
