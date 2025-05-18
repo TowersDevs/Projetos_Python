@@ -19,7 +19,7 @@ Este gerador automatiza esse processo com opções personalizáveis e diversas c
 - Python
 - Bibliotecas: `random`, `string`
 
-# 📈 Resultados
+## 📈 Resultados
 - Geração de múltiplas senhas seguras em segundos
 - Maior controle sobre o padrão de complexidade exigido
 - Pode ser adaptado como módulo para sistemas que exigem criação automática de senhas
